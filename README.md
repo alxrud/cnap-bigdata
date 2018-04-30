@@ -25,6 +25,6 @@ aws ec2 stop-instances --instance-ids i-0c1f28b6e1c849f65
  - Solution 2. Terminate unneeded instances of this type. 
 2. The number of instances is less than allowed quota but new instances are not created with the same message as in (1).
  - Solution. When certain instances are deleted, corresponding storage volumes are not deleted automatically. In the EC2 Volumes menu delete those volumes in the Available state.
- 
+ ![Deleting volumes](https://github.com/alxrud/cnap-bigdata/blob/master/images/Delete_volumes_in_Available_state.PNG)
  
 
